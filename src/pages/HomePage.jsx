@@ -68,7 +68,7 @@ export default function HomePage() {
             font-size: 22px;
           }
         }
-      `}/style>
+      `}</style>
     </>
   );
 }
