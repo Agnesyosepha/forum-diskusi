@@ -26,7 +26,7 @@ describe("Halaman Login", () => {
   });
 
   it("Berhasil login dan redirect ke halaman utama", () => {
-    cy.login("user@example.com", "password123");
+    cy.login("agnesyosephan@gmail.com", "agnes123");
 
     cy.url().should("eq", `${Cypress.config().baseUrl}/`);
   });
