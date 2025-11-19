@@ -18,7 +18,7 @@ export default function HomePage() {
       <Header />
       <main className="homepage">
         <div className="container">
-          <h1 className="page-title">💬 Form Diskusi</h1>
+          <h1 className="page-title">💬 Forum Diskusi</h1>
 
           {/* Filter kategori */}
           <CategoryFilter
@@ -68,7 +68,7 @@ export default function HomePage() {
             font-size: 22px;
           }
         }
-      `}</style>
+      `}/style>
     </>
   );
 }
